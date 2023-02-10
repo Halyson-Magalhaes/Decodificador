@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<title>Decodificador de Texto</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+   
+    <header>
+         <h1><img class="logo" src="criptografia-logo.jpg" alt="logo do projeto"></h1>
+    </header>
+
+    <main>
+        <section class="entrada">
+            <textarea  class="texto-entrada" cols="40" rows="10" 
+            placeholder ="  Digite o seu texto..."></textarea>
+
+            <div class="informacao">
+                <h6>&#8505;         
+                    Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-criptografar" onclick="BtnEncriptar()">Criptografar</button>
+                <button class="btn-descriptografar" onclick="BtnDesencriptar()">Desriptografar</button>
+            </div>
+
+        </section>
+
+        <section class="saida">
+            <textarea class="texto-saida" cols="20" rows="14"></textarea>
+            <button class="btn-copiar" onclick="BtnCopiar()">Copiar</button>         
+        </section>
+    </main>
+
+    <footer>
+        <h5>Desenvolvido por Halyson Magalhães</h5>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>

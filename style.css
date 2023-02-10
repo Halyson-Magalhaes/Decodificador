@@ -1,0 +1,131 @@
+*{
+    /*background: #e5e5e5;*/
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+header{
+    background: white;
+    height: 90px;
+}
+
+body{
+    background: linear-gradient(white 8%, #0be0abe3 85%);
+}
+
+.logo {
+    height: 88px;    
+}
+
+main{
+    
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto-entrada{
+    background: white;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-top: 80px;
+    text-transform: lowercase;
+}
+
+::placeholder{ color: #0a3871;}
+    .texto-entrada:focus{
+        outline: none;
+    }
+
+.texto-saida{
+    background: white;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 65px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.texto-saida:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    transition: 1s;
+
+}
+
+.btn-criptografar{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 1s;
+}
+
+.btn-criptografar:hover{
+    transform: scale(1.05)
+}
+
+.btn-descriptografar{
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: 1s;
+}
+
+.btn-descriptografar:hover{
+    transform: scale(1.05)
+
+}
+
+.btn-copiar{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 635px;
+    position: absolute;
+    width: 336px;
+    transition: 1s;
+}
+
+.btn-copiar:hover{
+    transform: scale(1.05)
+
+}
+
+.informacao{
+    color: #495057;
+    font-size: 18px;
+}
+
+footer{
+    background: #0be0abe3;
+    height: 80px;
+}
+
+footer h5{
+    position: absolute;
+    left: 45%;
+    bottom: 3%;
+    color: #495057;
+}
